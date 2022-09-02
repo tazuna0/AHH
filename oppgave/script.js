@@ -44,7 +44,7 @@ while (number <= 50) {
 
 // oppgave 5
 
-var thepasswordinquestion = "987521"
+/*var thepasswordinquestion = "987521"
 
 var password = prompt("skriv inn passordet ditt")
 var chances = 1
@@ -63,3 +63,17 @@ while (chances < 3) {
     }
     
 }
+*/
+
+
+// oppgave 6
+
+var sum = 0;
+
+do {
+    var number = parseInt(prompt("skriv inn et nummer")) 
+    sum = sum + number
+    if (number == 0) break;
+} while (number != 0);
+
+document.write(sum)
