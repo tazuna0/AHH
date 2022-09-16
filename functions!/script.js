@@ -34,7 +34,7 @@ document.write(Math.round(getRandomNumber(minimum,maximum)))
 
 // oppgave 4
 
-/* function tableCreation(rows, columns) {
+ /* function tableCreation(rows, columns) {
     document.write('<table border="1">')
     
     for (let index = 0; index < rows; index++) {
@@ -48,7 +48,7 @@ document.write(Math.round(getRandomNumber(minimum,maximum)))
     document.write('</table>')
 }
 
-tableCreation(3,3)
+tableCreation(8,5)
 */
 
 
