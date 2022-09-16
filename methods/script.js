@@ -51,12 +51,31 @@ document.write(checkPalindrome(string))
 
 // oppgave 4
 
-
-var mytext = "test word many of them"
+/*var mytext = "test word many of them"
 
 function sortAlphabets(text) {
     return text.split('').sort().join('')
 }
 
 document.write(sortAlphabets(mytext))
+*/
 
+// oppgave 5
+
+var mytext = prompt("skriv inn et tekst")
+var bokstav = prompt("skrivv inn et bokstav")
+
+function findFrequentLetter(string, letter) {
+    var letters = string.split("")
+    var amount = 0
+
+    for (let i = 0; i < letters.length; i++) {
+        var element = letters[i]
+        if (element == letter) {
+            amount = amount + 1
+        }
+    }
+    return string + " <br> det er: " + amount + " " + letter + " inne teksten"
+}
+
+document.write(findFrequentLetter(mytext, bokstav))
