@@ -62,7 +62,7 @@ document.write(sortAlphabets(mytext))
 
 // oppgave 5
 
-var mytext = prompt("skriv inn et tekst")
+/*var mytext = prompt("skriv inn et tekst")
 var bokstav = prompt("skrivv inn et bokstav")
 
 function findFrequentLetter(string, letter) {
@@ -79,3 +79,24 @@ function findFrequentLetter(string, letter) {
 }
 
 document.write(findFrequentLetter(mytext, bokstav))
+*/
+
+// oppgave 6
+
+var mystring = prompt("skriv inn hva som helst")
+
+function splitText(text, number) {
+    
+ for (let a = 0; a < text.length; a++) {
+    for (let b = 0; b < number; b++) {
+        text.slice(number, number+3)
+        number +=3
+        return text + "<br>"
+    }
+ }
+
+}
+
+document.write(splitText(mystring, 3))
+
+
