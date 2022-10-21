@@ -36,8 +36,7 @@ function sumAndMultiply(array) {
     }
 
     return sum + "<br>" + multiplySum
-}
-
+} 
 document.write(sumAndMultiply(myarray))
 */
 
