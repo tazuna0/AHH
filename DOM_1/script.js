@@ -97,9 +97,7 @@ bluebutton.addEventListener("click", function() {
 })
 
 
-
-
-randombutton.addEventListener("click", function() {
+randombutton.addEventListener("click", function() { 
     var colors = ["red", "blue", "green", "black"]
     var randomNumber = Math.round(Math.random() * 3)
 
