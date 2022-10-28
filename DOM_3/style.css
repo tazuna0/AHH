@@ -1,0 +1,43 @@
+body {
+    background-color: skyblue;
+}
+
+.bubble {
+    display: inline-block;
+    border-radius: 10px;
+    padding-right: 50px;
+    padding-left: 50px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    font-size: 40px;
+    color: steelblue;
+    text-align: center;
+    margin-top: 15px;
+    font-weight: bold;
+    width: 725px;
+}
+
+.button {
+    padding: 10px;
+    background-color: skyblue;
+    border: 3px solid white;
+    padding-right: 35px;
+    padding-left: 35px;
+    border-radius: 5px;
+    color: steelblue;
+    margin-right: 10px;
+}
+
+#numberinput {
+    padding: 10px;
+    background-color: skyblue;
+    border: 3px solid white;
+    padding-left: 10px;
+    border-radius: 5px;
+    color: steelblue;
+    margin-right: 10px;
+}
+
+#higherorlower {
+    font-size: 20px;
+}
