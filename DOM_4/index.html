@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+<center>
+
+    <div class="bubble">Perfect Number</div><br>
+    <div class="bubble" id="numbertext">Skriv inn nummeret ditt her!</div><br><br><br>
+    <input type="number" name="numberinput" id="numberinput" placeholder="Tas in et nummer"></input><br>
+    <button class="button" id="check">Sjekk Nummeret</button><br>
+    <button class="button" id="randomnumber">Tilfeldig Tall</button> <br>
+
+    <input type="color" name="" id="colorbox">
+    <div class="rangename" id="firstrangename">Red</div>
+    <input type="range" name="" id="redrange" max="255" value="0" onChange="changered(this.value)">
+    <div class="rangename">Green</div>
+    <input type="range" name="" id="greenrange" max="255" value="0" onChange="changegreen(this.value)">
+    <div class="rangename">Blue</div>
+    <input type="range" name="" id="bluerange" max="255" value="0" onChange="changeblue(this.value)">
+
+    <script src="script.js"></script>
+
+</center>
+    
+</body>
+</html>

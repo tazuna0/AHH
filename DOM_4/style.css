@@ -1,0 +1,51 @@
+body {
+    background-color: maroon;
+}
+
+.bubble {
+    display: inline-block;
+    border-radius: 10px;
+    padding-right: 50px;
+    padding-left: 50px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    font-size: 40px;
+    color: white;
+    text-align: center;
+    margin-top: 15px;
+    font-weight: bold;
+    width: 725px;
+}
+
+.button {
+    padding: 10px;
+    background-color: maroon;
+    border: 3px solid white;
+    padding-right: 35px;
+    padding-left: 35px;
+    border-radius: 5px;
+    color: white;
+    margin-bottom: 10px;
+    margin-top: 10px;
+}
+
+#numberinput {
+    padding: 10px;
+    border: 3px solid white;
+    border-radius: 5px;
+    margin-bottom: 10px;
+    margin-top: 10px;
+}
+
+#randomnumber {
+    margin-bottom: 123px;
+}
+
+.rangename {
+    color: white;
+    font-size: 20px;
+}
+
+#firstrangename {
+    margin-top: 50px;
+}
